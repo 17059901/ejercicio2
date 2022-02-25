@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAD4E6"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt1"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#FF5722"
+            android:fontFamily="sans-serif-black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginVertical="1dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="( X , Y )"
+                android:textSize="50dp"
+                android:textColor="#05800A"
+                android:background="@color/cardview_shadow_start_color"
+                android:fontFamily="sans-serif-thin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Arriba"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20dp"
+                    android:backgroundTint="#D67F9D"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Derecha"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20dp"
+                    android:backgroundTint="#D67F9D"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Izquierda"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20dp"
+                    android:backgroundTint="#D67F9D"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Abajo"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20dp"
+                    android:backgroundTint="#D67F9D"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/b5"
+                    android:text="salir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#EF3527"
+                    android:layout_marginBottom="@dimen/cardview_default_elevation"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
